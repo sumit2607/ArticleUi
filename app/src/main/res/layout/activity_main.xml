@@ -1,0 +1,118 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:orientation="vertical" >
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"  >
+<androidx.cardview.widget.CardView
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content">
+        <ImageView
+            android:id="@+id/imageView2"
+            android:layout_width="match_parent"
+            android:layout_height="270dp"
+            android:scaleType="fitXY"
+            android:layout_alignParentEnd="true"
+            android:layout_alignParentBottom="true"
+            android:layout_marginEnd="5dp"
+            android:layout_marginBottom="-9dp"
+            android:adjustViewBounds="true"
+            android:background="@drawable/ocean"
+            android:contentDescription="ImageOcean" />
+</androidx.cardview.widget.CardView>
+
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:text="Featured"
+            android:textColor="@color/black"
+            android:textSize="25dp"
+            android:layout_marginTop="20dp"
+            />
+
+        <TextView
+            android:layout_width="322dp"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:layout_marginTop="20dp"
+            android:text="Long Exposure River Bridge"
+            android:textSize="40sp"
+            android:textColor="@color/black"/>
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="--0--"
+            android:textSize="20sp"
+            android:layout_gravity="center"
+            android:layout_marginTop="20dp"/>
+
+        <TextView
+            android:layout_width="410dp"
+            android:layout_height="246dp"
+
+            android:layout_gravity="center"
+            android:layout_marginStart="20dp"
+            android:layout_marginTop="60dp"
+            android:layout_marginEnd="20dp"
+            android:text="@string/see_the_beautiful_oceans_of_the_pacific_where_the_water_is_so_cleanyou_can_see_the_send"
+            android:textColor="@color/black"
+            android:textSize="25dp" />
+        <ImageView
+            android:id="@+id/imageView"
+            android:layout_width="match_parent"
+            android:layout_height="270dp"
+            android:layout_alignParentEnd="true"
+            android:layout_alignParentBottom="true"
+            android:layout_marginEnd="5dp"
+            android:layout_marginBottom="-9dp"
+            android:adjustViewBounds="true"
+            android:background="@drawable/bridge"
+            android:contentDescription="ImageOcean" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:text="Featured"
+            android:textColor="@color/black"
+            android:textSize="25dp"
+            android:layout_marginTop="20dp"
+            />
+
+        <TextView
+            android:layout_width="322dp"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:layout_marginTop="20dp"
+            android:text="Blue Ocean Wave Crash"
+            android:textSize="40sp"
+            android:textColor="@color/black"/>
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="--0--"
+            android:textSize="20sp"
+            android:layout_gravity="center"
+            android:layout_marginTop="20dp"/>
+
+        <TextView
+            android:layout_width="410dp"
+            android:layout_height="246dp"
+
+            android:layout_gravity="center"
+            android:layout_marginStart="20dp"
+            android:layout_marginTop="60dp"
+            android:layout_marginEnd="20dp"
+            android:text="@string/here_we_have_40_great_examples_of_long_exposure_photographs_some_of_those_images_have_a_tyne_bridge_long_exposure_tyne_bridge_long_exposure"
+            android:textColor="@color/black"
+            android:textSize="25dp" />
+    </LinearLayout>
+</ScrollView>
+
